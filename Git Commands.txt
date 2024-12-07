@@ -53,7 +53,7 @@ git push -u origin main
 			- git checkout -b task/development-branch (-b to create a new branch)
 			- If branch already exists eg: git checkout <branch_name>
 
--- Step 03: 
+-- Step 03: Do the same steps of add , commit and push (change the name of the origin branch)
 
 
 
