@@ -1,0 +1,83 @@
+-- Download Gitbash
+-- Version controlling, code repositories
+
+For 1st time setup:
+
+-- Step 1 : created a repo om github account
+-- Step 2 : created a same name folder in your local pc.
+-- Step 3 : upload a file in the local folder.
+
+-- Step 4 : Initialize Git in your local folder.
+			-- git init
+			
+-- Step 5 : check the staus of github repo:
+			-- git status      (Ticket lena)  (untracked file or the files that is on your local but not in the repo) (untracked: red / tracked: green)
+			
+-- Step 6 : Tracked the file or move files from untracked to tracked:
+			-- git add .        ( Add all files into tracking)
+			-- git add -A       ( Add all files into tracking)
+			-- git add filename ( Add specific file)
+			-- git add *.csv    ( Add only csv files)
+			
+-- Let suppose you want to move file from tracking to untracking (ticket wapis krna)
+			 -- git rm --cached filename
+			   
+-- Step 7 : To make file ready tp push we do commit (send to airport)
+			 -- git commit -m "going to airport"
+			   
+-- Step 8 : To rename the branch from master to main
+			 -- git brach -M main
+
+-- Step 9 :	To set the origin from local to github repo
+			 -- git remote add origin 
+
+-- Step 10: To push file from local to github repo
+			 -- git push -u origin main
+			 
+--------------------------------------------------------------------------------------------------------------------------------------
+			 
+For 2nd time & onwards:
+
+git add .
+git commit -m "message"
+git push -u origin main
+
+----------------------------------------
+
+-- Branching :
+
+-- Step 01: 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
