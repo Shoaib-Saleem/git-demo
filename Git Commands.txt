@@ -44,9 +44,9 @@ git push -u origin main
 
 ----------------------------------------
 
--- Branching :
+-- upstreaming remote and local Branches :
 
--- Step 01: Check on which branch you are :
+-- Step 01: Check on which branch you are currently standing:
 			- git branch
 		
 -- Step 02: To move and create new branch
@@ -55,7 +55,12 @@ git push -u origin main
 
 -- Step 03: Do the same steps of add , commit and push (change the name of the origin branch)
 
+-- Step 04: Pull request to balance main and task/development-branch (pull request always balance git remote branches)
 
+Now if we we want to balance local main and task/development-branch.
+
+			- git checkout main
+			- git pull (to take the code from git MAIN branches)
 
 
 
