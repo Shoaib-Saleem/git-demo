@@ -46,9 +46,14 @@ git push -u origin main
 
 -- Branching :
 
--- Step 01: 
+-- Step 01: Check on which branch you are :
+			- git branch
+		
+-- Step 02: To move and create new branch
+			- git checkout -b task/development-branch (-b to create a new branch)
+			- If branch already exists eg: git checkout <branch_name>
 
-
+-- Step 03: 
 
 
 
